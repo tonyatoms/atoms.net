@@ -2,22 +2,22 @@
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:webfeeds="http://webfeeds.org/rss/1.0" version="2.0">
   <channel>
     <title>Xeo (demo)</title>
-    <link>http://localhost/</link>
-    <atom:link href="http://localhost/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://www.atoms.net/blog/</link>
+    <atom:link href="https://www.atoms.net/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Lume Simple Blog variant</description>
-    <lastBuildDate>Thu, 04 Dec 2025 03:55:11 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 04:00:25 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume 3.1.2</generator>
     <item>
       <title>Differences between Xeo and Simple Blog</title>
-      <link>http://localhost/differences/</link>
-      <guid isPermaLink="false">http://localhost/differences/</guid>
+      <link>https://www.atoms.net/blog/differences/</link>
+      <guid isPermaLink="false">https://www.atoms.net/blog/differences/</guid>
       <content:encoded>
         <![CDATA[<p>Wondering how <a href="https://github.com/famebot/xeo"><strong>Xeo</strong></a> differs from
 <a href="https://lume.land/theme/simple-blog/"><strong>Simple Blog</strong></a>? This post is
 for you!</p>
 <!--more-->
-<p>To recap <a href="http://localhost/instructions/">How to install Xeo:</a></p>
+<p>To recap <a href="https://www.atoms.net/instructions/">How to install Xeo:</a></p>
 <blockquote>
 <p><a href="https://github.com/famebot/xeo"><strong>Xeo</strong></a> is
 <a href="https://rdela.com/">Ricky de Laveaga’s</a> variant of
@@ -27,7 +27,7 @@ for you!</p>
 and Xeo both provide Atom and JSON feeds for subscribers.</p>
 </blockquote>
 <p>Where do they diverge?</p>
-<h2 id="typography" tabindex="-1"><a href="http://localhost/differences/#typography" class="header-anchor">Typography</a></h2>
+<h2 id="typography" tabindex="-1"><a href="https://www.atoms.net/blog/differences/#typography" class="header-anchor">Typography</a></h2>
 <div class="markdown-alert markdown-alert-tip">
 <p class="markdown-alert-title">Tip</p>
 <p>Lume’s Google Fonts plugin needs the <strong>share page link</strong>, or share URL, not
@@ -46,7 +46,7 @@ smaller sizes) typefaces from the
 <a href="https://fonts.google.com/specimen/Bebas+Neue">Bebas Neue</a> for display and
 <a href="https://fonts.google.com/specimen/Lexend">Lexend</a> for text. Preview Bebas
 Neue + Lexend at <strong><a href="https://xeo.land/">xeo.land</a>.</strong> You can customize this
-when you <strong><a href="http://localhost/instructions/#typography">personalize your copy of Xeo</a>.</strong></p>
+when you <strong><a href="https://www.atoms.net/instructions/#typography">personalize your copy of Xeo</a>.</strong></p>
 </li>
 <li>
 <p>To get the correct URL for your <code>display</code> and <code>text</code> font choices, I recommend
@@ -84,14 +84,14 @@ or learn about
 and
 <a href="https://blog.typekit.com/2016/04/29/combining-typefaces-free-guide-to-great-typography/">Combining Typefaces</a>
 for inspiration and wisdom. Learn more about Xeo’s typography in
-<a href="http://localhost/instructions/#typography">How to install Xeo</a>.</p>
+<a href="https://www.atoms.net/instructions/#typography">How to install Xeo</a>.</p>
 </li>
 </ul>
-<h2 id="design" tabindex="-1"><a href="http://localhost/differences/#design" class="header-anchor">Design</a></h2>
+<h2 id="design" tabindex="-1"><a href="https://www.atoms.net/blog/differences/#design" class="header-anchor">Design</a></h2>
 <ul>
 <li>
 <p><strong>Spacing:</strong> Xeo adjusts spacing around various elements, particularly page
-headers and the <a href="http://localhost/archive/">search box</a>, which is relocated to the bottom of
+headers and the <a href="https://www.atoms.net/archive/">search box</a>, which is relocated to the bottom of
 pages to reduce layout shift when search results appear.</p>
 </li>
 <li>
@@ -111,8 +111,8 @@ has been integrated into eleventeen.</p>
     </item>
     <item>
       <title>How to install Xeo</title>
-      <link>http://localhost/instructions/</link>
-      <guid isPermaLink="false">http://localhost/instructions/</guid>
+      <link>https://www.atoms.net/blog/instructions/</link>
+      <guid isPermaLink="false">https://www.atoms.net/blog/instructions/</guid>
       <content:encoded>
         <![CDATA[<p><a href="https://github.com/famebot/xeo"><strong>Xeo</strong></a> is
 <a href="https://rdela.com/">Ricky de Laveaga’s</a> variant of
@@ -129,15 +129,15 @@ easily from the <a href="https://lume.land/theme/xeo/">Xeo theme page</a>. Runni
 <pre><code class="language-bash">deno run -A https://lume.land/init.ts --theme=xeo
 </code></pre>
 <p>will create a new project with Xeo configured.</p>
-<h2 id="personalize-xeo" tabindex="-1"><a href="http://localhost/instructions/#personalize-xeo" class="header-anchor">Personalize Xeo</a></h2>
+<h2 id="personalize-xeo" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#personalize-xeo" class="header-anchor">Personalize Xeo</a></h2>
 <p>Edit the <a href="https://github.com/famebot/xeo/blob/trunk/_data.yml"><code>_data.yml</code></a> file
 in your blog root folder with your data to customize the site title,
 description, and metadata.</p>
 <div class="markdown-alert markdown-alert-tip">
 <p class="markdown-alert-title">Tip</p>
-<p>You can use <a href="http://localhost/instructions/#cms">LumeCMS</a> to customize the blog and add content easily.</p>
+<p>You can use <a href="https://www.atoms.net/blog/instructions/#cms">LumeCMS</a> to customize the blog and add content easily.</p>
 </div>
-<h3 id="domains-and-urls" tabindex="-1"><a href="http://localhost/instructions/#domains-and-urls" class="header-anchor">Domains and URLs</a></h3>
+<h3 id="domains-and-urls" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#domains-and-urls" class="header-anchor">Domains and URLs</a></h3>
 <p>The <a href="https://lume.land/docs/configuration/config-file/#location"><code>location</code></a>
 (aka web address, “the public URL of the site”) depends on the environment
 (development, production) and can be changed dynamically from the CLI
@@ -160,8 +160,8 @@ added a new <code>--hostname</code> argument to
 and <a href="https://lume.land/cms/#run-in-localhost"><code>lume cms</code></a> to change the
 default <code>localhost</code> value there as well.</p>
 </div>
-<h3 id="typography" tabindex="-1"><a href="http://localhost/instructions/#typography" class="header-anchor">Typography</a></h3>
-<p>To <a href="http://localhost/differences/#typography"><strong>configure which Google fonts Xeo uses</strong></a>,
+<h3 id="typography" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#typography" class="header-anchor">Typography</a></h3>
+<p>To <a href="https://www.atoms.net/differences/#typography"><strong>configure which Google fonts Xeo uses</strong></a>,
 provide a <code>fonts</code> object with <code>display</code> and/or <code>text</code> options to <code>xeo</code> in your
 <code>_config.ts</code>:</p>
 <pre><code class="language-ts">import lume from &quot;lume/mod.ts&quot;;
@@ -198,11 +198,11 @@ The source code powering the example is in the
 <div class="markdown-alert markdown-alert-note">
 <p class="markdown-alert-title">Note</p>
 <p>Discover how to
-<a href="http://localhost/differences/#typography"><strong>find the correct “share page link”</strong></a>, or URL,
+<a href="https://www.atoms.net/differences/#typography"><strong>find the correct “share page link”</strong></a>, or URL,
 for other font choices and learn more about Xeo’s typography in
-<a href="http://localhost/differences/#typography">Differences between Xeo and Simple Blog</a>.</p>
+<a href="https://www.atoms.net/differences/#typography">Differences between Xeo and Simple Blog</a>.</p>
 </div>
-<h3 id="color" tabindex="-1"><a href="http://localhost/instructions/#color" class="header-anchor">Color</a></h3>
+<h3 id="color" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#color" class="header-anchor">Color</a></h3>
 <p>Like with fonts above, to <strong>configure which colors Xeo uses</strong>, provide <code>xeo</code>
 with a <code>colors</code> object with the options you want to override in your
 <code>_config.ts</code>:</p>
@@ -226,19 +226,19 @@ from the configuration above.</p>
 <p>See the defaults in
 <a href="https://github.com/famebot/xeo/blob/trunk/plugins.ts"><code>plugins.ts</code></a> for a list
 of all <code>colors</code> options.</p>
-<h3 id="blogging" tabindex="-1"><a href="http://localhost/instructions/#blogging" class="header-anchor">Blogging</a></h3>
+<h3 id="blogging" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#blogging" class="header-anchor">Blogging</a></h3>
 <p>Posts must be saved in the <code>posts</code> folder (for example,
 <code>posts/my-first-post.md</code>). Unlike Simple Blog, Xeo serves them from the root
 directory, by setting
 <a href="https://lume.land/docs/creating-pages/urls/#basename"><code>basename</code></a> to <code>/</code>
 in <a href="https://github.com/famebot/xeo/blob/trunk/posts/_data.yml#L3"><code>posts/_data.yml</code></a>.</p>
-<h3 id="cms" tabindex="-1"><a href="http://localhost/instructions/#cms" class="header-anchor">CMS</a></h3>
+<h3 id="cms" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#cms" class="header-anchor">CMS</a></h3>
 <p>Like Simple Blog, Xeo includes <a href="https://lume.land/cms">LumeCMS</a> to edit your
 site easily in a web browser. You can
 <a href="https://lume.land/cms/#run-in-localhost">run LumeCMS locally</a> or publish it
 alongside your built site, ideally
 <a href="https://lume.land/cms/deployment/vps/">deployed to a VPS</a>.</p>
-<h2 id="install-as-a-remote-theme" tabindex="-1"><a href="http://localhost/instructions/#install-as-a-remote-theme" class="header-anchor">Install as a remote theme</a></h2>
+<h2 id="install-as-a-remote-theme" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#install-as-a-remote-theme" class="header-anchor">Install as a remote theme</a></h2>
 <p>To add the theme to an existing Lume project, import it in your <code>_config.ts</code>
 file as a remote module. Update it by changing the version number in the
 import URL:</p>
@@ -253,7 +253,7 @@ export default site;
 </code></pre>
 <p>Copy the <a href="https://github.com/famebot/xeo/blob/trunk/_data.yml"><code>_data.yml</code></a> file
 to your blog root folder and edit it with your data.</p>
-<h2 id="use-xeo-as-a-base-template" tabindex="-1"><a href="http://localhost/instructions/#use-xeo-as-a-base-template" class="header-anchor">Use Xeo as a base template</a></h2>
+<h2 id="use-xeo-as-a-base-template" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#use-xeo-as-a-base-template" class="header-anchor">Use Xeo as a base template</a></h2>
 <p>To use this theme as a base template for a more customized blog, clone
 <a href="https://github.com/famebot/xeo">famebot/xeo</a> on GitHub and edit the
 <a href="https://github.com/famebot/xeo/blob/trunk/_data.yml"><code>_data.yml</code></a> file.</p>

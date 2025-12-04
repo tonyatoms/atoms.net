@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost/</loc>
-    <lastmod>2025-12-04T03:55:11.891Z</lastmod>
+    <loc>https://www.atoms.net/blog/</loc>
+    <lastmod>2025-12-04T04:00:26.852Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/archive/</loc>
-    <lastmod>2025-12-04T03:55:11.888Z</lastmod>
+    <loc>https://www.atoms.net/blog/archive/</loc>
+    <lastmod>2025-12-04T04:00:26.849Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/archive/design/</loc>
-    <lastmod>2025-12-04T03:55:11.885Z</lastmod>
+    <loc>https://www.atoms.net/blog/archive/design/</loc>
+    <lastmod>2025-12-04T04:00:26.846Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/archive/instructions/</loc>
-    <lastmod>2025-12-04T03:55:11.885Z</lastmod>
+    <loc>https://www.atoms.net/blog/archive/instructions/</loc>
+    <lastmod>2025-12-04T04:00:26.846Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/archive/lume/</loc>
-    <lastmod>2025-12-04T03:55:11.885Z</lastmod>
+    <loc>https://www.atoms.net/blog/archive/lume/</loc>
+    <lastmod>2025-12-04T04:00:26.846Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/archive/xeo/</loc>
-    <lastmod>2025-12-04T03:55:11.885Z</lastmod>
+    <loc>https://www.atoms.net/blog/archive/xeo/</loc>
+    <lastmod>2025-12-04T04:00:26.846Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/author/ricky-de-laveaga/</loc>
-    <lastmod>2025-12-04T03:55:11.885Z</lastmod>
+    <loc>https://www.atoms.net/blog/author/ricky-de-laveaga/</loc>
+    <lastmod>2025-12-04T04:00:26.846Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/differences/</loc>
+    <loc>https://www.atoms.net/blog/differences/</loc>
     <lastmod>2025-01-19T16:00:00.000Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/instructions/</loc>
+    <loc>https://www.atoms.net/blog/instructions/</loc>
     <lastmod>2025-01-13T16:00:00.000Z</lastmod>
   </url>
   <url>
-    <loc>http://localhost/pages/contact/</loc>
+    <loc>https://www.atoms.net/blog/pages/contact/</loc>
     <lastmod>2025-12-03T23:44:53.920Z</lastmod>
   </url>
 </urlset>
