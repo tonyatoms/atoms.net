@@ -2,13 +2,13 @@
 <html lang="en"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Xeo (demo)</title>
+    <title>Archive - Xeo (demo)</title>
 
     <link rel="stylesheet" href="/pagefind/pagefind-ui.css"><link rel="stylesheet" href="/color-options.css">
     <link rel="stylesheet" href="/styles.css">
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Xeo (demo)">
     <link rel="alternate" href="/feed.json" type="application/json" title="Xeo (demo)">
-    <link rel="canonical" href="http://localhost/">
+    <link rel="canonical" href="http://localhost/archive/">
 
     <meta name="supported-color-schemes" content="light dark">
     <meta name="theme-color" content="hsl(var(--a), 20%, 100%)" media="(prefers-color-scheme: light)">
@@ -18,9 +18,9 @@
   <meta property="og:type" content="website">
 <meta property="og:site_name" content="Xeo (demo)">
 <meta property="og:locale" content="en">
-<meta property="og:title" content="Home">
+<meta property="og:title" content="Archive">
 <meta property="og:description" content="Lume Simple Blog variant">
-<meta property="og:url" content="http://localhost/">
+<meta property="og:url" content="http://localhost/archive/">
 <meta name="twitter:card" content="summary">
 <meta name="description" content="Lume Simple Blog variant">
 <script type="text/javascript" src="/pagefind/pagefind-ui.js"></script><script type="text/javascript">window.addEventListener('DOMContentLoaded',()=>{new PagefindUI({"element":"#search","showImages":false,"excerptLength":0,"showEmptyFilters":true,"showSubResults":false,"resetStyles":true,"bundlePath":"/pagefind/","baseUrl":"/"});});</script><link rel="icon" sizes="32x32" href="/favicon.ico">
@@ -34,7 +34,7 @@
       </a>
 
       <ul class="navbar-links">          <li>
-            <a href="/archive/">
+            <a href="/archive/" aria-current="page">
               Archive
             </a>
           </li>
@@ -88,23 +88,20 @@
       </ul>
     </nav>
 
-    <header class="page-header center">
-  <h1 class="page-title">🔥 <a href="https://translate.google.com/?sl=gl&amp;tl=en&amp;text=Lume%20e%20Xeo&amp;op=translate">Lume e Xeo</a> 🧊</h1>
-  <div class="page-subtitle"><p>Welcome to <a href="https://github.com/famebot/xeo"><strong>Xeo</strong></a>, a <em>deluxe</em> variant of <a href="https://lume.land/theme/simple-blog/"><strong>Lume&nbsp;Simple&nbsp;Blog</strong></a></p></div>
-</header>
+    <main class="body-archive">
+  <header class="page-header">
+    <h1 class="page-title">Archive</h1>
+  </header>
+  <section class="archive-main">
+    <ul class="postList">
+  <li class="post">
+    <h2 class="post-title">
+      <a href="/differences/">
+        Differences between Xeo and Simple Blog
+      </a>
+    </h2>
 
-<main class="body-home">
-  <section class="postList">
-    <br>
-      <article class="post">
-        <header class="post-header">
-          <h2 class="post-title">
-            <a href="/differences/">
-              Differences between Xeo and Simple Blog
-            </a>
-          </h2>
-
-          <div class="post-details">
+    <div class="post-details">
       <p>
         by <a data-pagefind-filter="author" href="/author/ricky-de-laveaga/">Ricky de Laveaga</a>
       </p>
@@ -123,29 +120,15 @@
     </p>
 </div>
 
-        </header>
+  </li>
+  <li class="post">
+    <h2 class="post-title">
+      <a href="/instructions/">
+        How to install Xeo
+      </a>
+    </h2>
 
-        <div class="post-excerpt body">
-          <p>Wondering how <a href="https://github.com/famebot/xeo"><strong>Xeo</strong></a> differs from
-<a href="https://lume.land/theme/simple-blog/"><strong>Simple Blog</strong></a>? This post is
-for&nbsp;you!</p>
-        </div>
-
-        <p>
-          <a href="/differences/" class="post-link">
-            Continue reading →
-          </a>
-        </p>
-      </article>
-      <article class="post">
-        <header class="post-header">
-          <h2 class="post-title">
-            <a href="/instructions/">
-              How to install Xeo
-            </a>
-          </h2>
-
-          <div class="post-details">
+    <div class="post-details">
       <p>
         by <a data-pagefind-filter="author" href="/author/ricky-de-laveaga/">Ricky de Laveaga</a>
       </p>
@@ -166,28 +149,36 @@ for&nbsp;you!</p>
     </p>
 </div>
 
-        </header>
+  </li>
+</ul>
 
-        <div class="post-excerpt body">
-          <p><a href="https://github.com/famebot/xeo"><strong>Xeo</strong></a> is
-<a href="https://rdela.com/">Ricky de Laveaga’s</a> variant of
-<a href="https://lume.land/theme/simple-blog/"><strong>Simple Blog</strong></a> by
-<a href="https://oscarotero.com/">Óscar Otero</a>, a clean and minimal blog theme for
-<a href="https://lume.land/"><strong>Lume</strong></a> with support for tags and authors. Simple Blog
-and Xeo both provide Atom and JSON feeds for&nbsp;subscribers.</p>
-        </div>
+    <div class="archive-filters">
 
-        <p>
-          <a href="/instructions/" class="post-link">
-            Continue reading →
-          </a>
-        </p>
-      </article>
+          <nav class="page-navigation">
+            <h2>Tags<span class="html-only"> 🏷️</span></h2>
+
+            <ul class="page-navigation-tags">
+                <li>
+                  <a href="/archive/design/" class="badge">Design</a>
+                </li>
+                <li>
+                  <a href="/archive/instructions/" class="badge">Instructions</a>
+                </li>
+                <li>
+                  <a href="/archive/lume/" class="badge">Lume</a>
+                </li>
+                <li>
+                  <a href="/archive/xeo/" class="badge">Xeo</a>
+                </li>
+            </ul>
+          </nav>
+    </div>
   </section>
+  
 
   <hr>
 
-  <p>Search <a href="/archive/">the&nbsp;archive</a></p>
+  <p class="archive-search">Search</p>
   <div class="search" id="search"></div>
 </main>
 
@@ -202,7 +193,7 @@ and Xeo both provide Atom and JSON feeds for&nbsp;subscribers.</p>
       </p>
       <p><a href="https://github.com/famebot/xeo">Xeo</a> © 2022-2025 <a href="https://oscarotero.com/">Óscar&nbsp;Otero</a> &amp; <a href="https://rdela.com/">Ricky&nbsp;de&nbsp;Laveaga</a></p>
     </footer>
-    <!-- Current page: / -->
+    <!-- Current page: /archive/ -->
   
 
 </body></html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Xeo (demo)</title>
+
+    <link rel="stylesheet" href="/color-options.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Xeo (demo)">
+    <link rel="alternate" href="/feed.json" type="application/json" title="Xeo (demo)">
+    <link rel="canonical" href="http://localhost/pages/contact/">
+
+    <meta name="supported-color-schemes" content="light dark">
+    <meta name="theme-color" content="hsl(var(--a), 20%, 100%)" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="hsl(var(--a), 65%, 0%)" media="(prefers-color-scheme: dark)">
+
+    
+  <meta property="og:type" content="website">
+<meta property="og:site_name" content="Xeo (demo)">
+<meta property="og:locale" content="en">
+<meta property="og:title" content="Contact">
+<meta property="og:description" content="Lume Simple Blog variant">
+<meta property="og:url" content="http://localhost/pages/contact/">
+<meta name="twitter:card" content="summary">
+<meta name="description" content="Lume Simple Blog variant">
+<link rel="icon" sizes="32x32" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" sizes="any" href="/favicon.svg" type="image/svg+xml">
+</head>
+  <body>
+    <nav class="navbar">
+      <a href="/" class="navbar-home" aria-label="Homepage">
+          <img src="/favicon.svg" height="48" alt="Xeo (demo)" title="Xeo (demo)">
+      </a>
+
+      <ul class="navbar-links">          <li>
+            <a href="/archive/">
+              Archive
+            </a>
+          </li>
+          <li>
+            <a href="/pages/contact/" aria-current="page">
+              Contact
+            </a>
+          </li>
+        <li>
+          <script>
+            let theme = localStorage.getItem("theme") ||
+              (window.matchMedia("(prefers-color-scheme: dark)")
+                  .matches
+                ? "dark"
+                : "light");
+            document.documentElement.dataset.theme = theme;
+            function changeTheme() {
+              theme = theme === "dark" ? "light" : "dark";
+              localStorage.setItem("theme", theme);
+              document.documentElement.dataset.theme = theme;
+            }
+            function darkChange() {
+              if (theme === "light") {
+                changeTheme();
+              }
+            }
+            function lightChange() {
+              if (theme === "dark") {
+                changeTheme();
+              }
+            }
+            const darkPreference = window.matchMedia(
+              "(prefers-color-scheme: dark)",
+            );
+            const lightPreference = window.matchMedia(
+              "(prefers-color-scheme: light)",
+            );
+            darkPreference.addEventListener(
+              "change",
+              (e) => e.matches && darkChange(),
+            );
+            lightPreference.addEventListener(
+              "change",
+              (e) => e.matches && lightChange(),
+            );
+          </script>
+          <button class="button" onclick="changeTheme()">
+            <span class="icon">◐</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="body-tag">
+  <article class="post" data-pagefind-body="">
+    <header class="post-header">
+      <h1 class="post-title">Contact</h1>
+
+      
+    </header>
+
+    <div class="post-body">
+      <p><a href="https://translate.google.com/details?sl=auto&amp;tl=en&amp;text=Aloha&amp;op=translate">Aloha</a>
+🌺</p>
+
+    </div>
+  </article>
+</main>
+
+
+    <footer class="center">
+      <p class="feed-bar">
+        <svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="3" cy="13" r="2" fill="currentColor"></circle>
+          <path d="M14 13C14 6.925 9.075 2 3 2M9 13a6 6 0 0 0-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+        </svg> Feed:
+        <a href="/feed.xml">Atom</a>, <a href="/feed.json">JSON</a>
+      </p>
+      <p><a href="https://github.com/famebot/xeo">Xeo</a> © 2022-2025 <a href="https://oscarotero.com/">Óscar&nbsp;Otero</a> &amp; <a href="https://rdela.com/">Ricky&nbsp;de&nbsp;Laveaga</a></p>
+    </footer>
+    <!-- Current page: /pages/contact/ -->
+  
+
+</body></html>

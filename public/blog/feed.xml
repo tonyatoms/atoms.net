@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:webfeeds="http://webfeeds.org/rss/1.0" version="2.0">
+  <channel>
+    <title>Xeo (demo)</title>
+    <link>http://localhost/</link>
+    <atom:link href="http://localhost/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Lume Simple Blog variant</description>
+    <lastBuildDate>Thu, 04 Dec 2025 03:26:16 GMT</lastBuildDate>
+    <language>en</language>
+    <generator>Lume 3.1.2</generator>
+    <item>
+      <title>Differences between Xeo and Simple Blog</title>
+      <link>http://localhost/differences/</link>
+      <guid isPermaLink="false">http://localhost/differences/</guid>
+      <content:encoded>
+        <![CDATA[<p>Wondering how <a href="https://github.com/famebot/xeo"><strong>Xeo</strong></a> differs from
+<a href="https://lume.land/theme/simple-blog/"><strong>Simple Blog</strong></a>? This post is
+for you!</p>
+<!--more-->
+<p>To recap <a href="http://localhost/instructions/">How to install Xeo:</a></p>
+<blockquote>
+<p><a href="https://github.com/famebot/xeo"><strong>Xeo</strong></a> is
+<a href="https://rdela.com/">Ricky de Laveaga’s</a> variant of
+<a href="https://lume.land/theme/simple-blog/"><strong>Simple Blog</strong></a> by
+<a href="https://oscarotero.com/">Óscar Otero</a>, a clean and minimal blog theme for
+<a href="https://lume.land/"><strong>Lume</strong></a> with support for tags and authors. Simple Blog
+and Xeo both provide Atom and JSON feeds for subscribers.</p>
+</blockquote>
+<p>Where do they diverge?</p>
+<h2 id="typography" tabindex="-1"><a href="http://localhost/differences/#typography" class="header-anchor">Typography</a></h2>
+<div class="markdown-alert markdown-alert-tip">
+<p class="markdown-alert-title">Tip</p>
+<p>Lume’s Google Fonts plugin needs the <strong>share page link</strong>, or share URL, not
+the embed code.</p>
+</div>
+<ul>
+<li>
+<p>Xeo uses <a href="https://lume.land/plugins/google_fonts/">Lume’s Google Fonts plugin</a>
+in <a href="https://github.com/famebot/xeo/blob/trunk/plugins.ts"><code>plugins.ts</code></a> to set
+display (for larger sized headings and titles) and text (normal body and
+smaller sizes) typefaces from the
+<a href="https://fonts.google.com/">Google Font Library</a>.</p>
+</li>
+<li>
+<p>By default, Xeo sets
+<a href="https://fonts.google.com/specimen/Bebas+Neue">Bebas Neue</a> for display and
+<a href="https://fonts.google.com/specimen/Lexend">Lexend</a> for text. Preview Bebas
+Neue + Lexend at <strong><a href="https://xeo.land/">xeo.land</a>.</strong> You can customize this
+when you <strong><a href="http://localhost/instructions/#typography">personalize your copy of Xeo</a>.</strong></p>
+</li>
+<li>
+<p>To get the correct URL for your <code>display</code> and <code>text</code> font choices, I recommend
+selecting the “Get font” button at the top right on the specimen page, which
+will take you the <a href="https://fonts.google.com/selection">selection</a> page where
+you can select the “Share” button and then the “Copy share page link” button,
+which shows a copy icon that looks like one rectangle stacked on top of
+another rectangle. The share button should be underneath the text “1 font
+family selected.” Use the “Remove all” button to clear each choice before
+selecting another, so the share page links stay separate.</p>
+</li>
+<li>
+<p>If you are looking for more options,
+<a href="https://fonts.google.com/specimen/Poppins">Poppins</a> is an alternative to
+Lexend we considered for Xeo. The example custom font site,
+<strong><a href="https://xogo.xeo.land/">xogo.xeo.land</a>,</strong> showcases the fun, playful
+pairing of Poppins &amp;
+<a href="https://fonts.google.com/specimen/Playpen+Sans">Playpen</a>.
+<a href="https://translate.google.com/?sl=gl&amp;tl=en&amp;text=Xogo&amp;op=translate"><strong>Xogo</strong> means <em>play</em> or <em>game</em></a>
+in Galician, like
+<a href="https://translate.google.com/?sl=gl&amp;tl=en&amp;text=Xeo&amp;op=translate"><strong>Xeo</strong> means <em>ice</em></a>
+and
+<a href="https://translate.google.com/?sl=gl&amp;tl=en&amp;text=Lume&amp;op=translate"><strong>Lume</strong> means <em>fire</em></a>.
+The source code powering the example is in the
+<a href="https://github.com/famebot/xeo/blob/xogo/_config.ts#L6-L18"><code>xogo</code> branch on GitHub</a>.
+We chose Lexend over Poppins because
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide">variable fonts</a>
+have performance benefits since they combine many different variations of a
+typeface into a single file, reducing requests.</p>
+</li>
+<li>
+<p>You can <a href="https://fonts.google.com/variablefonts">browse variable Google fonts</a>
+or learn about
+<a href="https://fonts.google.com/knowledge/choosing_type/pairing_typefaces">Pairing</a>
+and
+<a href="https://blog.typekit.com/2016/04/29/combining-typefaces-free-guide-to-great-typography/">Combining Typefaces</a>
+for inspiration and wisdom. Learn more about Xeo’s typography in
+<a href="http://localhost/instructions/#typography">How to install Xeo</a>.</p>
+</li>
+</ul>
+<h2 id="design" tabindex="-1"><a href="http://localhost/differences/#design" class="header-anchor">Design</a></h2>
+<ul>
+<li>
+<p><strong>Spacing:</strong> Xeo adjusts spacing around various elements, particularly page
+headers and the <a href="http://localhost/archive/">search box</a>, which is relocated to the bottom of
+pages to reduce layout shift when search results appear.</p>
+</li>
+<li>
+<p><strong>Color:</strong> Xeo has a
+<a href="https://github.com/famebot/xeo/blob/trunk/styles.css">foundation</a> that will
+lead to eventual support of
+<a href="https://eleventeen.blog/about/#rainbow-mode">Rainbow Mode</a> powered by
+<a href="https://chromagen.io/">Chromagen</a>, like Xeo’s predecessor
+<a href="https://eleventeen.blog/about/">eleventeen</a>. Chromagen generated Xeo’s
+current color schemes, but has not yet been wired up to Xeo to the degree it
+has been integrated into eleventeen.</p>
+</li>
+</ul>
+]]>
+      </content:encoded>
+      <pubDate>Sun, 19 Jan 2025 16:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>How to install Xeo</title>
+      <link>http://localhost/instructions/</link>
+      <guid isPermaLink="false">http://localhost/instructions/</guid>
+      <content:encoded>
+        <![CDATA[<p><a href="https://github.com/famebot/xeo"><strong>Xeo</strong></a> is
+<a href="https://rdela.com/">Ricky de Laveaga’s</a> variant of
+<a href="https://lume.land/theme/simple-blog/"><strong>Simple Blog</strong></a> by
+<a href="https://oscarotero.com/">Óscar Otero</a>, a clean and minimal blog theme for
+<a href="https://lume.land/"><strong>Lume</strong></a> with support for tags and authors. Simple Blog
+and Xeo both provide Atom and JSON feeds for subscribers.</p>
+<!--more-->
+<p>Once you
+<a href="https://docs.deno.com/runtime/getting_started/installation/">install Deno</a>, the
+<strong>fastest and easiest</strong> way to configure this theme is the
+<a href="https://deno.land/x/lume_init">Lume init command</a>, which you can also copy
+easily from the <a href="https://lume.land/theme/xeo/">Xeo theme page</a>. Running:</p>
+<pre><code class="language-bash">deno run -A https://lume.land/init.ts --theme=xeo
+</code></pre>
+<p>will create a new project with Xeo configured.</p>
+<h2 id="personalize-xeo" tabindex="-1"><a href="http://localhost/instructions/#personalize-xeo" class="header-anchor">Personalize Xeo</a></h2>
+<p>Edit the <a href="https://github.com/famebot/xeo/blob/trunk/_data.yml"><code>_data.yml</code></a> file
+in your blog root folder with your data to customize the site title,
+description, and metadata.</p>
+<div class="markdown-alert markdown-alert-tip">
+<p class="markdown-alert-title">Tip</p>
+<p>You can use <a href="http://localhost/instructions/#cms">LumeCMS</a> to customize the blog and add content easily.</p>
+</div>
+<h3 id="domains-and-urls" tabindex="-1"><a href="http://localhost/instructions/#domains-and-urls" class="header-anchor">Domains and URLs</a></h3>
+<p>The <a href="https://lume.land/docs/configuration/config-file/#location"><code>location</code></a>
+(aka web address, “the public URL of the site”) depends on the environment
+(development, production) and can be changed dynamically from the CLI
+(<code>deno task serve --location=https://example.com</code>). We encourage you to either
+configure <code>location</code> dynamically, as Xeo does for <a href="https://xeo.land/">xeo.land</a>
+(in <a href="https://github.com/famebot/xeo/blob/trunk/deno.json#L9"><code>deno.json</code></a> and
+<a href="https://github.com/famebot/xeo/blob/trunk/netlify.toml#L5"><code>netlify.toml</code></a>), or
+to set <code>location</code> in
+<a href="https://github.com/lumeland/lume.land/blob/2f6da036fb0be93d9689ca29bb87c57c08b7f560/_config.ts#L34"><code>_config.ts</code></a>
+as <a href="https://lume.land/">lume.land</a> does. The default value is
+<a href="https://github.com/lumeland/lume.land/blob/main/docs/advanced/cheatsheet.md?plain=1#L27"><code>https://localhost</code></a>.</p>
+<div class="markdown-alert markdown-alert-note">
+<p class="markdown-alert-title">Note</p>
+<p>You may also want to set the local server
+<a href="https://lume.land/docs/configuration/config-file/#port"><code>port</code></a>. For even
+more flexibility in local development,
+<a href="https://github.com/lumeland/lume/blob/v2.5.1/CHANGELOG.md#251---2025-01-28">Lume 2.5.1</a>
+added a new <code>--hostname</code> argument to
+<a href="https://lume.land/docs/overview/command-line/#start-a-local-server"><code>lume --serve</code></a>
+and <a href="https://lume.land/cms/#run-in-localhost"><code>lume cms</code></a> to change the
+default <code>localhost</code> value there as well.</p>
+</div>
+<h3 id="typography" tabindex="-1"><a href="http://localhost/instructions/#typography" class="header-anchor">Typography</a></h3>
+<p>To <a href="http://localhost/differences/#typography"><strong>configure which Google fonts Xeo uses</strong></a>,
+provide a <code>fonts</code> object with <code>display</code> and/or <code>text</code> options to <code>xeo</code> in your
+<code>_config.ts</code>:</p>
+<pre><code class="language-ts">import lume from &quot;lume/mod.ts&quot;;
+import xeo from &quot;xeo/mod.ts&quot;;
+
+const site = lume();
+
+site.use(xeo({
+  fonts: {
+    display:
+      &quot;https://fonts.google.com/share?selection.family=Playpen+Sans:wght@100..800&quot;,
+    text:
+      &quot;https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&quot;,
+  },
+}));
+
+export default site;
+</code></pre>
+<p><strong>Visit <a href="https://xogo.xeo.land/">xogo.xeo.land</a></strong> to see the change resulting
+from the configuration above, which pairs
+<a href="https://fonts.google.com/specimen/Playpen+Sans">Playpen</a> &amp;
+<a href="https://fonts.google.com/specimen/Poppins">Poppins</a> for a fun, playful vibe.
+Preview the defaults,
+<a href="https://fonts.google.com/specimen/Bebas+Neue">Bebas Neue</a> +
+<a href="https://fonts.google.com/specimen/Lexend">Lexend</a>,
+at <strong><a href="https://xeo.land/">xeo.land</a>.</strong></p>
+<p><a href="https://translate.google.com/?sl=gl&amp;tl=en&amp;text=Xogo&amp;op=translate"><strong>Xogo</strong> means <em>play</em> or <em>game</em></a>
+in Galician, like
+<a href="https://translate.google.com/?sl=gl&amp;tl=en&amp;text=Xeo&amp;op=translate"><strong>Xeo</strong> means <em>ice</em></a>
+and
+<a href="https://translate.google.com/?sl=gl&amp;tl=en&amp;text=Lume&amp;op=translate"><strong>Lume</strong> means <em>fire</em></a>.
+The source code powering the example is in the
+<a href="https://github.com/famebot/xeo/blob/xogo/_config.ts#L6-L18"><code>xogo</code> branch on GitHub</a>.</p>
+<div class="markdown-alert markdown-alert-note">
+<p class="markdown-alert-title">Note</p>
+<p>Discover how to
+<a href="http://localhost/differences/#typography"><strong>find the correct “share page link”</strong></a>, or URL,
+for other font choices and learn more about Xeo’s typography in
+<a href="http://localhost/differences/#typography">Differences between Xeo and Simple Blog</a>.</p>
+</div>
+<h3 id="color" tabindex="-1"><a href="http://localhost/instructions/#color" class="header-anchor">Color</a></h3>
+<p>Like with fonts above, to <strong>configure which colors Xeo uses</strong>, provide <code>xeo</code>
+with a <code>colors</code> object with the options you want to override in your
+<code>_config.ts</code>:</p>
+<pre><code class="language-ts">import lume from &quot;lume/mod.ts&quot;;
+import xeo from &quot;xeo/mod.ts&quot;;
+
+const site = lume();
+
+site.use(xeo({
+  colors: {
+    hue: 288,
+    complement: 108,
+    analogous: 154,
+  },
+}));
+
+export default site;
+</code></pre>
+<p><strong>Visit <a href="https://xogo.xeo.land/">xogo.xeo.land</a></strong> to see the change resulting
+from the configuration above.</p>
+<p>See the defaults in
+<a href="https://github.com/famebot/xeo/blob/trunk/plugins.ts"><code>plugins.ts</code></a> for a list
+of all <code>colors</code> options.</p>
+<h3 id="blogging" tabindex="-1"><a href="http://localhost/instructions/#blogging" class="header-anchor">Blogging</a></h3>
+<p>Posts must be saved in the <code>posts</code> folder (for example,
+<code>posts/my-first-post.md</code>). Unlike Simple Blog, Xeo serves them from the root
+directory, by setting
+<a href="https://lume.land/docs/creating-pages/urls/#basename"><code>basename</code></a> to <code>/</code>
+in <a href="https://github.com/famebot/xeo/blob/trunk/posts/_data.yml#L3"><code>posts/_data.yml</code></a>.</p>
+<h3 id="cms" tabindex="-1"><a href="http://localhost/instructions/#cms" class="header-anchor">CMS</a></h3>
+<p>Like Simple Blog, Xeo includes <a href="https://lume.land/cms">LumeCMS</a> to edit your
+site easily in a web browser. You can
+<a href="https://lume.land/cms/#run-in-localhost">run LumeCMS locally</a> or publish it
+alongside your built site, ideally
+<a href="https://lume.land/cms/deployment/vps/">deployed to a VPS</a>.</p>
+<h2 id="install-as-a-remote-theme" tabindex="-1"><a href="http://localhost/instructions/#install-as-a-remote-theme" class="header-anchor">Install as a remote theme</a></h2>
+<p>To add the theme to an existing Lume project, import it in your <code>_config.ts</code>
+file as a remote module. Update it by changing the version number in the
+import URL:</p>
+<pre><code class="language-ts">import lume from &quot;lume/mod.ts&quot;;
+import xeo from &quot;https://deno.land/x/xeo@v5.0.0/mod.ts&quot;;
+
+const site = lume();
+
+site.use(xeo());
+
+export default site;
+</code></pre>
+<p>Copy the <a href="https://github.com/famebot/xeo/blob/trunk/_data.yml"><code>_data.yml</code></a> file
+to your blog root folder and edit it with your data.</p>
+<h2 id="use-xeo-as-a-base-template" tabindex="-1"><a href="http://localhost/instructions/#use-xeo-as-a-base-template" class="header-anchor">Use Xeo as a base template</a></h2>
+<p>To use this theme as a base template for a more customized blog, clone
+<a href="https://github.com/famebot/xeo">famebot/xeo</a> on GitHub and edit the
+<a href="https://github.com/famebot/xeo/blob/trunk/_data.yml"><code>_data.yml</code></a> file.</p>
+]]>
+      </content:encoded>
+      <pubDate>Mon, 13 Jan 2025 16:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

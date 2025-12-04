@@ -1,0 +1,9 @@
+:root {
+--h: 172; --c: 351; --a: 38; /* analogous to complement, not hue */
+
+
+--sh: 94%; /* saturation high */ --sm: 54%; /* saturation medium */ --sl: 20%; /* saturation low
+(muted) */
+
+--xl: 92%; /* xlight */ --lr: 83%;
+/* lighter */ --l: 65%; /* lightness */ --m: 54%; /* midrange */ --lm: 36%; /* lowmid */ --d: 20%; /* darkness */ --dr: 9%; /* darker */ }
