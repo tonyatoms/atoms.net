@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:webfeeds="http://webfeeds.org/rss/1.0" version="2.0">
   <channel>
-    <title>Xeo (demo)</title>
+    <title>Spiritus Ranae</title>
     <link>https://www.atoms.net/blog/</link>
     <atom:link href="https://www.atoms.net/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Lume Simple Blog variant</description>
-    <lastBuildDate>Thu, 04 Dec 2025 04:00:25 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 04:14:26 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume 3.1.2</generator>
     <item>
-      <title>Differences between Xeo and Simple Blog</title>
+      <title>Is This Thing On?</title>
       <link>https://www.atoms.net/blog/differences/</link>
       <guid isPermaLink="false">https://www.atoms.net/blog/differences/</guid>
       <content:encoded>
-        <![CDATA[<p>Wondering how <a href="https://github.com/famebot/xeo"><strong>Xeo</strong></a> differs from
-<a href="https://lume.land/theme/simple-blog/"><strong>Simple Blog</strong></a>? This post is
-for you!</p>
+        <![CDATA[<p>Yes it is a blog!</p>
 <!--more-->
 <p>To recap <a href="https://www.atoms.net/instructions/">How to install Xeo:</a></p>
 <blockquote>
@@ -107,7 +105,7 @@ has been integrated into eleventeen.</p>
 </ul>
 ]]>
       </content:encoded>
-      <pubDate>Sun, 19 Jan 2025 16:00:00 GMT</pubDate>
+      <pubDate>Wed, 03 Dec 2025 16:00:00 GMT</pubDate>
     </item>
     <item>
       <title>How to install Xeo</title>
