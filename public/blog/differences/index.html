@@ -4,11 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Is This Thing On? - Spiritus Ranae</title>
 
-    <link rel="stylesheet" href="/blog/pagefind/pagefind-ui.css"><link rel="stylesheet" href="/blog/color-options.css">
-    <link rel="stylesheet" href="/blog/styles.css">
-    <link rel="alternate" href="/blog/feed.xml" type="application/atom+xml" title="Spiritus Ranae">
-    <link rel="alternate" href="/blog/feed.json" type="application/json" title="Spiritus Ranae">
-    <link rel="canonical" href="https://www.atoms.net/blog/differences/">
+    <link rel="stylesheet" href="/pagefind/pagefind-ui.css"><link rel="stylesheet" href="/color-options.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Spiritus Ranae">
+    <link rel="alternate" href="/feed.json" type="application/json" title="Spiritus Ranae">
+    <link rel="canonical" href="http://localhost:8000/differences/">
 
     <meta name="supported-color-schemes" content="light dark">
     <meta name="theme-color" content="hsl(var(--a), 20%, 100%)" media="(prefers-color-scheme: light)">
@@ -20,26 +20,26 @@
 <meta property="og:locale" content="en">
 <meta property="og:title" content="Is This Thing On?">
 <meta property="og:description" content="Lume Simple Blog variant">
-<meta property="og:url" content="https://www.atoms.net/blog/differences/">
+<meta property="og:url" content="http://localhost:8000/differences/">
 <meta name="twitter:card" content="summary">
 <meta name="description" content="Lume Simple Blog variant">
-<script type="text/javascript" src="/blog/pagefind/pagefind-ui.js"></script><script type="text/javascript">window.addEventListener('DOMContentLoaded',()=>{new PagefindUI({"element":"#search","showImages":false,"excerptLength":0,"showEmptyFilters":true,"showSubResults":false,"resetStyles":true,"bundlePath":"/blog/pagefind/","baseUrl":"/blog/"});});</script><link rel="icon" sizes="32x32" href="/blog/favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png">
-<link rel="icon" sizes="any" href="/blog/favicon.svg" type="image/svg+xml">
+<script type="text/javascript" src="/pagefind/pagefind-ui.js"></script><script type="text/javascript">window.addEventListener('DOMContentLoaded',()=>{new PagefindUI({"element":"#search","showImages":false,"excerptLength":0,"showEmptyFilters":true,"showSubResults":false,"resetStyles":true,"bundlePath":"/pagefind/","baseUrl":"/"});});</script><link rel="icon" sizes="32x32" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" sizes="any" href="/favicon.svg" type="image/svg+xml">
 </head>
   <body>
     <nav class="navbar">
-      <a href="/blog/" class="navbar-home" aria-label="Homepage">
-          <img src="/blog/favicon.svg" height="48" alt="Spiritus Ranae" title="Spiritus Ranae">
+      <a href="/" class="navbar-home" aria-label="Homepage">
+          <img src="/favicon.svg" height="48" alt="Spiritus Ranae" title="Spiritus Ranae">
       </a>
 
       <ul class="navbar-links">          <li>
-            <a href="/blog/archive/">
+            <a href="/archive/">
               Archive
             </a>
           </li>
           <li>
-            <a href="/blog/pages/contact/">
+            <a href="/pages/contact/">
               Contact
             </a>
           </li>
@@ -95,146 +95,44 @@
 
       <div class="post-details">
       <p>
-        by <a data-pagefind-filter="author" href="/blog/author/tony-adams/">Tony Adams</a>
+        by <a data-pagefind-filter="author" href="/author/tony-adams/">Tony Adams</a>
       </p>
 
   <p>
     <time datetime="2025-12-03 10:00:00">December 3rd, 2025</time>
   </p>
 
-  <p>3 min read</p>
+  <p>1 min read</p>
 
     <p class="post-tags">
       <span class="html-only">🏷️ </span>
-          <a data-pagefind-filter="tag" class="badge" href="/blog/archive/design/">Design</a>
+          <a data-pagefind-filter="tag" class="badge" href="/archive/meta/">Meta</a>
 
-          <a data-pagefind-filter="tag" class="badge" href="/blog/archive/xeo/">Xeo</a>
+          <a data-pagefind-filter="tag" class="badge" href="/archive/frogs/">Frogs</a>
     </p>
 </div>
 
     </header>
 
-      <nav class="toc">
-        <h2>Table of Contents</h2>
-        <ol>
-            <li>
-              <a href="#typography">Typography</a>
-
-            </li>
-            <li>
-              <a href="#design">Design</a>
-
-            </li>
-        </ol>
-      </nav>
 
     <div class="post-body body">
       <p>Yes it is a blog!</p>
-<!--more-->
-<p>To recap <a href="/blog/instructions/">How to install Xeo:</a></p>
-<blockquote>
-<p><a href="https://github.com/famebot/xeo"><strong>Xeo</strong></a> is
-<a href="https://rdela.com/">Ricky de Laveaga’s</a> variant of
-<a href="https://lume.land/theme/simple-blog/"><strong>Simple Blog</strong></a> by
-<a href="https://oscarotero.com/">Óscar Otero</a>, a clean and minimal blog theme for
-<a href="https://lume.land/"><strong>Lume</strong></a> with support for tags and authors. Simple Blog
-and Xeo both provide Atom and JSON feeds for&nbsp;subscribers.</p>
-</blockquote>
-<p>Where do they diverge?</p>
-<h2 id="typography" tabindex="-1"><a href="#typography" class="header-anchor">Typography</a></h2>
-<div class="markdown-alert markdown-alert-tip">
-<p class="markdown-alert-title">Tip</p>
-<p>Lume’s Google Fonts plugin needs the <strong>share page link</strong>, or share URL, not
-the embed&nbsp;code.</p>
-</div>
-<ul>
-<li>
-<p>Xeo uses <a href="https://lume.land/plugins/google_fonts/">Lume’s Google Fonts plugin</a>
-in <a href="https://github.com/famebot/xeo/blob/trunk/plugins.ts"><code>plugins.ts</code></a> to set
-display (for larger sized headings and titles) and text (normal body and
-smaller sizes) typefaces from the
-<a href="https://fonts.google.com/">Google Font&nbsp;Library</a>.</p>
-</li>
-<li>
-<p>By default, Xeo sets
-<a href="https://fonts.google.com/specimen/Bebas+Neue">Bebas Neue</a> for display and
-<a href="https://fonts.google.com/specimen/Lexend">Lexend</a> for text. Preview Bebas
-Neue + Lexend at <strong><a href="https://xeo.land/">xeo.land</a>.</strong> You can customize this
-when you <strong><a href="/blog/instructions/#typography">personalize your copy of&nbsp;Xeo</a>.</strong></p>
-</li>
-<li>
-<p>To get the correct URL for your <code>display</code> and <code>text</code> font choices, I recommend
-selecting the “Get font” button at the top right on the specimen page, which
-will take you the <a href="https://fonts.google.com/selection">selection</a> page where
-you can select the “Share” button and then the “Copy share page link” button,
-which shows a copy icon that looks like one rectangle stacked on top of
-another rectangle. The share button should be underneath the text “1 font
-family selected.” Use the “Remove all” button to clear each choice before
-selecting another, so the share page links stay&nbsp;separate.</p>
-</li>
-<li>
-<p>If you are looking for more options,
-<a href="https://fonts.google.com/specimen/Poppins">Poppins</a> is an alternative to
-Lexend we considered for Xeo. The example custom font site,
-<strong><a href="https://xogo.xeo.land/">xogo.xeo.land</a>,</strong> showcases the fun, playful
-pairing of Poppins &amp;
-<a href="https://fonts.google.com/specimen/Playpen+Sans">Playpen</a>.
-<a href="https://translate.google.com/?sl=gl&amp;tl=en&amp;text=Xogo&amp;op=translate"><strong>Xogo</strong> means <em>play</em> or <em>game</em></a>
-in Galician, like
-<a href="https://translate.google.com/?sl=gl&amp;tl=en&amp;text=Xeo&amp;op=translate"><strong>Xeo</strong> means <em>ice</em></a>
-and
-<a href="https://translate.google.com/?sl=gl&amp;tl=en&amp;text=Lume&amp;op=translate"><strong>Lume</strong> means <em>fire</em></a>.
-The source code powering the example is in the
-<a href="https://github.com/famebot/xeo/blob/xogo/_config.ts#L6-L18"><code>xogo</code> branch on&nbsp;GitHub</a>.
-We chose Lexend over Poppins because
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide">variable fonts</a>
-have performance benefits since they combine many different variations of a
-typeface into a single file, reducing&nbsp;requests.</p>
-</li>
-<li>
-<p>You can <a href="https://fonts.google.com/variablefonts">browse variable Google fonts</a>
-or learn about
-<a href="https://fonts.google.com/knowledge/choosing_type/pairing_typefaces">Pairing</a>
-and
-<a href="https://blog.typekit.com/2016/04/29/combining-typefaces-free-guide-to-great-typography/">Combining Typefaces</a>
-for inspiration and wisdom. Learn more about Xeo’s typography in
-<a href="/blog/instructions/#typography">How to install&nbsp;Xeo</a>.</p>
-</li>
-</ul>
-<h2 id="design" tabindex="-1"><a href="#design" class="header-anchor">Design</a></h2>
-<ul>
-<li>
-<p><strong>Spacing:</strong> Xeo adjusts spacing around various elements, particularly page
-headers and the <a href="/blog/archive/">search box</a>, which is relocated to the bottom of
-pages to reduce layout shift when search results&nbsp;appear.</p>
-</li>
-<li>
-<p><strong>Color:</strong> Xeo has a
-<a href="https://github.com/famebot/xeo/blob/trunk/styles.css">foundation</a> that will
-lead to eventual support of
-<a href="https://eleventeen.blog/about/#rainbow-mode">Rainbow Mode</a> powered by
-<a href="https://chromagen.io/">Chromagen</a>, like Xeo’s predecessor
-<a href="https://eleventeen.blog/about/">eleventeen</a>. Chromagen generated Xeo’s
-current color schemes, but has not yet been wired up to Xeo to the degree it
-has been integrated into&nbsp;eleventeen.</p>
-</li>
-</ul>
 
     </div>
 
   </article>
 
   <nav class="page-pagination pagination">
-    <ul>        <li class="pagination-prev">
-          <a href="/blog/instructions/" rel="prev">
-            <span>← Older post</span>
-            <strong>How to install Xeo</strong>
+    <ul>        <li class="pagination-next">
+          <a href="/instructions/" rel="next">
+            <span>Newer post →</span>
+            <strong>Why and How a Blog Now?</strong>
           </a>
         </li>
     </ul>
   </nav>
   <hr>
-  <p>Search <a href="/blog/archive/">the&nbsp;archive</a></p>
+  <p>Search <a href="/archive/">the&nbsp;archive</a></p>
   <div class="search" id="search"></div>
 </main>
 
@@ -245,9 +143,9 @@ has been integrated into&nbsp;eleventeen.</p>
           <circle cx="3" cy="13" r="2" fill="currentColor"></circle>
           <path d="M14 13C14 6.925 9.075 2 3 2M9 13a6 6 0 0 0-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
         </svg> Feed:
-        <a href="/blog/feed.xml">Atom</a>, <a href="/blog/feed.json">JSON</a>
+        <a href="/feed.xml">Atom</a>, <a href="/feed.json">JSON</a>
       </p>
-      <p>© nope</p>
+      <p>Content is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons BY-NC 4.0</a>. Software is licensed under <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
     </footer>
     <!-- Current page: /differences/ -->
   
