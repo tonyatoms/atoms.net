@@ -5,7 +5,7 @@
     <link>http://localhost/</link>
     <atom:link href="http://localhost/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Lume Simple Blog variant</description>
-    <lastBuildDate>Thu, 04 Dec 2025 03:35:34 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 03:55:11 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume 3.1.2</generator>
     <item>
