@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:8000/</loc>
-    <lastmod>2025-12-04T19:45:32.284Z</lastmod>
+    <lastmod>2025-12-04T19:55:26.523Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:8000/archive/</loc>
-    <lastmod>2025-12-04T19:45:32.279Z</lastmod>
+    <lastmod>2025-12-04T19:55:26.519Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:8000/archive/frogs/</loc>
-    <lastmod>2025-12-04T19:45:32.277Z</lastmod>
+    <lastmod>2025-12-04T19:55:26.516Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:8000/archive/meta/</loc>
-    <lastmod>2025-12-04T19:45:32.277Z</lastmod>
+    <lastmod>2025-12-04T19:55:26.516Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:8000/archive/puppies/</loc>
-    <lastmod>2025-12-04T19:45:32.277Z</lastmod>
+    <lastmod>2025-12-04T19:55:26.516Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:8000/author/tony-adams/</loc>
-    <lastmod>2025-12-04T19:45:32.277Z</lastmod>
+    <lastmod>2025-12-04T19:55:26.516Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:8000/differences/</loc>
