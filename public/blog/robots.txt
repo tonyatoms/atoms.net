@@ -1,2 +1,2 @@
 
-Sitemap: http://localhost:8000/sitemap.xml
+Sitemap: https://www.atoms.net/blog/sitemap.xml
