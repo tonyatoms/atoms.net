@@ -5,9 +5,17 @@
     <link>https://www.atoms.net/blog/</link>
     <atom:link href="https://www.atoms.net/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Lume Simple Blog variant</description>
-    <lastBuildDate>Fri, 05 Dec 2025 16:01:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 17:12:42 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume 3.1.2</generator>
+    <item>
+      <title>Can We Have Nice Things?</title>
+      <link>https://www.atoms.net/blog/makearchergreatagain/</link>
+      <guid isPermaLink="false">https://www.atoms.net/blog/makearchergreatagain/</guid>
+      <content:encoded><![CDATA[<p><img src="https://www.atoms.net/uploads/maga.png" alt="Image"></p>
+]]></content:encoded>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Why and How a Blog Now?</title>
       <link>https://www.atoms.net/blog/instructions/</link>

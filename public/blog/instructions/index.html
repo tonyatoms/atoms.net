@@ -216,6 +216,12 @@ Spiritus Ranae, is sort-of Latin, or perhaps actual Latin for "Breath of the Fro
             <strong>Is This Thing On?</strong>
           </a>
         </li>
+        <li class="pagination-next">
+          <a href="/blog/makearchergreatagain/" rel="next">
+            <span>Newer post →</span>
+            <strong>Can We Have Nice Things?</strong>
+          </a>
+        </li>
     </ul>
   </nav>
   <hr>
@@ -236,5 +242,26 @@ Spiritus Ranae, is sort-of Latin, or perhaps actual Latin for "Breath of the Fro
     </footer>
     <!-- Current page: /instructions/ -->
   
+      <audio id="click-sound" preload="auto">
+        <source src="/blog/assets/audio/Single_Frog_Croak1.ogg" type="audio/ogg">
+      </audio>
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const audio = document.getElementById('click-sound');
+          const logo = document.querySelector('a.navbar-home');
+          
+          if (logo && audio) {
+            logo.addEventListener('click', (e) => {
+              e.preventDefault(); 
+              audio.currentTime = 0;
+              audio.play();
+              
+              // Navigate after a short delay so sound starts
+              setTimeout(() => window.location.href = logo.href, 520);
+            });
+          }
+        });
+      </script>
+    
 
 </body></html>
