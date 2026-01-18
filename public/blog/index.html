@@ -99,6 +99,73 @@
       <article class="post">
         <header class="post-header">
           <h2 class="post-title">
+            <a href="/blog/loggy/">
+              Added some Logging
+            </a>
+          </h2>
+
+          <div class="post-details">
+      <p>
+        by <a data-pagefind-filter="author" href="/blog/author/tony-adams/">Tony Adams</a>
+      </p>
+
+  <p>
+    <time datetime="2026-01-17 18:00:00">January 17th, 2026</time>
+  </p>
+
+  <p>2 min read</p>
+
+</div>
+
+        </header>
+
+        <div class="post-excerpt body">
+          <p>I just added a tiny, privacy‑friendly “pageview counter” for the blog that runs for free, doesn’t use Google Analytics, and avoids collecting personal data.
+​</p>
+<h2>What problem this solves</h2>
+<p>Most analytics tools track a lot more than many small sites need: they set cookies, profile visitors, and phone home to big platforms just to answer basic questions like “Which pages are people reading?” and “Is anyone visiting this thing?” The goal here was different: count visits and see which pages get attention, without building dossiers on readers or depending on gross ad‑tech companies.
+​</p>
+<h2>What I built instead</h2>
+<p>A tiny web service (hosted on Deno Deploy) that receives a simple “someone viewed this page” message whenever a page on the site loads.
+​</p>
+<p>A very small snippet of JavaScript added to the blog’s template that sends just three pieces of information:</p>
+<ol>
+<li>
+<p>Which page was viewed (the URL path)</p>
+</li>
+<li>
+<p>The page title</p>
+</li>
+<li>
+<p>Where the visitor came from on your own site (the referrer)</p>
+</li>
+</ol>
+<p>The service does not store IP addresses, cookies, or unique identifiers—only high‑level information that’s useful for understanding traffic, not tracking people.
+​</p>
+<h2>How it works behind the scenes</h2>
+<p>When someone opens a page on the site, their browser quietly makes a background request to the analytics service saying “Page /blog/archive/ was viewed.” The service checks that the request comes from a web page, updates an in‑memory counter for that page, and writes a brief log line (timestamp, path, title, referrer, and browser type).
+​</p>
+<h2>What makes it privacy‑respecting</h2>
+<p>No cookies, no fingerprinting
+The system doesn’t try to recognize or follow a person across visits; it only counts pageviews.
+​</p>
+<p>Minimal data
+It records just enough to answer “what is being read?” rather than “who is reading it?”.
+​</p>
+<h2>Why this is a good fit for a personal blog</h2>
+<p>For a small site or personal blog, the interesting questions are usually about content, not people: which posts resonate, which pages nobody sees, and whether the site is still alive in the eyes of readers. This setup answers those questions with a tiny, understandable, and host‑agnostic piece of plumbing - no dashboards, no trackers, and no dependence on ad‑network analytics.
+​</p>
+        </div>
+
+        <p>
+          <a href="/blog/loggy/" class="post-link">
+            Continue reading →
+          </a>
+        </p>
+      </article>
+      <article class="post">
+        <header class="post-header">
+          <h2 class="post-title">
             <a href="/blog/sente/">
               Counter-Protest is Gote (後手)
             </a>
@@ -162,53 +229,6 @@
 
         <p>
           <a href="/blog/public-sans/" class="post-link">
-            Continue reading →
-          </a>
-        </p>
-      </article>
-      <article class="post">
-        <header class="post-header">
-          <h2 class="post-title">
-            <a href="/blog/northwestern/">
-              Caving By Any Other Name
-            </a>
-          </h2>
-
-          <div class="post-details">
-      <p>
-        by <a data-pagefind-filter="author" href="/blog/author/tony-adams/">Tony Adams</a>
-      </p>
-
-  <p>
-    <time datetime="2025-12-29 18:00:00">December 29th, 2025</time>
-  </p>
-
-  <p>2 min read</p>
-
-</div>
-
-        </header>
-
-        <div class="post-excerpt body">
-          <h2>Disappointed with Northwestern</h2>
-<p>Early on, when the trump adminstration was coercing colleges into toeing the MAGA line, it looked like  universities <a href="https://www.cnn.com/2025/10/16/us/trump-universities-compact-funding">might resist</a>. I could not be more disappointed to see that <a href="https://chicago.suntimes.com/education/2025/12/02/northwestern-trump-settlement-deering-meadow-freeze-federal-funding-dei-transgender-admissions-antisemitism">Northwestern caved</a> into trump's demands AND had the temerity to claim that it was preserving its independence while doing so.</p>
-<p>Northwestern's $14.3 billion endowment could have been prudently used to cover some or all of the federal funding the government threatened to withhold.</p>
-<h2>Forgiveness</h2>
-<p>In this excellent post on <a href="https://marienewman.substack.com/p/why-forgiving-not-forgetting-marjorie">Why Forgiving (Not Forgetting) Marjorie Taylor Greene May Make Sense for America (and Me)</a>
-Marie Newman reiterates the concept that Forgiveness is for you, it is not for the offending party. Newman did not originate the concept, but somehow I hadn't heard it before (or forgot if I did) so she gets the credit. There are of course, differing schools of thought about this view of forgiveness, but it makes sense to me, at least in context of MTG or, Northwestern University for cravenly capitulating to the trump adminstrations demands to give up its independence and pay a huge fine in order to preserve some federal funding.</p>
-<p><strong>Some more thoughts, in no particular order added Dec 30, 2025</strong></p>
-<p>Northwestern could look at this example of how to stand up to a bully who is threatening to stop federal funding:
-<a href="https://en.wikipedia.org/wiki/Katherine_Maher">NPR's CEO Katherine_Maher's wikipedia entry</a></p>
-<h2>Is it too late?</h2>
-<p>Northwestern can draw from its own history of breaking agreements if it believes it's too late to assert independence.</p>
-<p>If it can dissolve the <a href="https://dailynorthwestern.com/2024/04/29/campus/breaking-administrators-student-demonstrators-reach-agreement-to-end-encampment/">Deering Meadow Agreement</a>, it can also back out of its capitulation to trump. Then again, it might have to acknowledge <a href="https://dailynorthwestern.com/2025/11/30/campus/northwestern-takes-down-online-information-about-deering-meadow-agreement/">the existence of the Deering Meadow Agreement</a> in order to reinstate it.</p>
-<p>For now, I'm not yet burning my Northwestern Wildcats hoodie, but I'm also no longer wearing it in public.</p>
-<p>Also see:
-<a href="https://dailynorthwestern.com/2025/12/21/campus/pritzker-professors-question-legality-of-northwestern-funding-deal-with-trump-administration/">Pritzker professors question legality of Northwestern funding deal</a></p>
-        </div>
-
-        <p>
-          <a href="/blog/northwestern/" class="post-link">
             Continue reading →
           </a>
         </p>

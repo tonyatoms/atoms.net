@@ -5,9 +5,53 @@
     <link>https://www.atoms.net/blog/</link>
     <atom:link href="https://www.atoms.net/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Lume Simple Blog variant</description>
-    <lastBuildDate>Sun, 18 Jan 2026 19:01:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jan 2026 21:05:19 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume 3.1.2</generator>
+    <item>
+      <title>Added some Logging</title>
+      <link>https://www.atoms.net/blog/loggy/</link>
+      <guid isPermaLink="false">https://www.atoms.net/blog/loggy/</guid>
+      <content:encoded>
+        <![CDATA[<p>I just added a tiny, privacy‑friendly “pageview counter” for the blog that runs for free, doesn’t use Google Analytics, and avoids collecting personal data.
+​</p>
+<h2 id="what-problem-this-solves" tabindex="-1"><a href="https://www.atoms.net/blog/loggy/#what-problem-this-solves" class="header-anchor">What problem this solves</a></h2>
+<p>Most analytics tools track a lot more than many small sites need: they set cookies, profile visitors, and phone home to big platforms just to answer basic questions like “Which pages are people reading?” and “Is anyone visiting this thing?” The goal here was different: count visits and see which pages get attention, without building dossiers on readers or depending on gross ad‑tech companies.
+​</p>
+<h2 id="what-i-built-instead" tabindex="-1"><a href="https://www.atoms.net/blog/loggy/#what-i-built-instead" class="header-anchor">What I built instead</a></h2>
+<p>A tiny web service (hosted on Deno Deploy) that receives a simple “someone viewed this page” message whenever a page on the site loads.
+​</p>
+<p>A very small snippet of JavaScript added to the blog’s template that sends just three pieces of information:</p>
+<ol>
+<li>
+<p>Which page was viewed (the URL path)</p>
+</li>
+<li>
+<p>The page title</p>
+</li>
+<li>
+<p>Where the visitor came from on your own site (the referrer)</p>
+</li>
+</ol>
+<p>The service does not store IP addresses, cookies, or unique identifiers—only high‑level information that’s useful for understanding traffic, not tracking people.
+​</p>
+<h2 id="how-it-works-behind-the-scenes" tabindex="-1"><a href="https://www.atoms.net/blog/loggy/#how-it-works-behind-the-scenes" class="header-anchor">How it works behind the scenes</a></h2>
+<p>When someone opens a page on the site, their browser quietly makes a background request to the analytics service saying “Page /blog/archive/ was viewed.” The service checks that the request comes from a web page, updates an in‑memory counter for that page, and writes a brief log line (timestamp, path, title, referrer, and browser type).
+​</p>
+<h2 id="what-makes-it-privacy%E2%80%91respecting" tabindex="-1"><a href="https://www.atoms.net/blog/loggy/#what-makes-it-privacy%E2%80%91respecting" class="header-anchor">What makes it privacy‑respecting</a></h2>
+<p>No cookies, no fingerprinting
+The system doesn’t try to recognize or follow a person across visits; it only counts pageviews.
+​</p>
+<p>Minimal data
+It records just enough to answer “what is being read?” rather than “who is reading it?”.
+​</p>
+<h2 id="why-this-is-a-good-fit-for-a-personal-blog" tabindex="-1"><a href="https://www.atoms.net/blog/loggy/#why-this-is-a-good-fit-for-a-personal-blog" class="header-anchor">Why this is a good fit for a personal blog</a></h2>
+<p>For a small site or personal blog, the interesting questions are usually about content, not people: which posts resonate, which pages nobody sees, and whether the site is still alive in the eyes of readers. This setup answers those questions with a tiny, understandable, and host‑agnostic piece of plumbing - no dashboards, no trackers, and no dependence on ad‑network analytics.
+​</p>
+]]>
+      </content:encoded>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Counter-Protest is Gote (後手)</title>
       <link>https://www.atoms.net/blog/sente/</link>
