@@ -18,4 +18,19 @@
 <li><strong>Code/Software:</strong> All code, templates, and build scripts are released under the <a href="/blog/LICENSE.md"><strong>MIT License</strong></a>.</li>
 <li><strong>Content:</strong> All blog posts, images, and written text are released under the <a href="https://creativecommons.org/licenses/by-sa/4.0/"><strong>Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA)</strong></a> License.</li>
 </ol>
-</body></html>
+<script>
+(async function () {
+  try {
+    await fetch("https://blog-analytics.tonyatoms.deno.net/", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        url: location.pathname,
+        title: document.title,
+        referrer: document.referrer
+      }),
+      keepalive: true
+    });
+  } catch (_) {}
+})();
+</script></body></html>

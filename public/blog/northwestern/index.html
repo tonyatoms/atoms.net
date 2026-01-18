@@ -202,4 +202,19 @@ Marie Newman reiterates the concept that Forgiveness is for you, it is not for t
       </script>
     
 
-</body></html>
+<script>
+(async function () {
+  try {
+    await fetch("https://blog-analytics.tonyatoms.deno.net/", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        url: location.pathname,
+        title: document.title,
+        referrer: document.referrer
+      }),
+      keepalive: true
+    });
+  } catch (_) {}
+})();
+</script></body></html>
