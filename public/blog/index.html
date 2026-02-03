@@ -99,6 +99,40 @@
       <article class="post">
         <header class="post-header">
           <h2 class="post-title">
+            <a href="/blog/robot1/">
+              Robot Minimum Wage 
+            </a>
+          </h2>
+
+          <div class="post-details">
+      <p>
+        by <a data-pagefind-filter="author" href="/blog/author/tony-adams/">Tony Adams</a>
+      </p>
+
+  <p>
+    <time datetime="2026-02-02 16:00:00">February 2nd, 2026</time>
+  </p>
+
+  <p>1 min read</p>
+
+</div>
+
+        </header>
+
+        <div class="post-excerpt body">
+          <p>and the robots have to give all their wages, initially to the unemployed and underemployed and then eventually, when all the non-automated jobs are gone, to everyone.</p>
+<p>Put another way: robots are paid a wage somewhat comparable to the wage that would have been paid to a human worker. Those wages are taxed at 100%. That tax income is then used to fund unemployment payments, and over time, gradually shifted over to pay for a universal basic income.</p>
+        </div>
+
+        <p>
+          <a href="/blog/robot1/" class="post-link">
+            Continue reading →
+          </a>
+        </p>
+      </article>
+      <article class="post">
+        <header class="post-header">
+          <h2 class="post-title">
             <a href="/blog/loggy/">
               Added some Logging
             </a>
@@ -110,7 +144,7 @@
       </p>
 
   <p>
-    <time datetime="2026-01-17 18:00:00">January 17th, 2026</time>
+    <time datetime="2026-01-17 16:00:00">January 17th, 2026</time>
   </p>
 
   <p>2 min read</p>
@@ -120,15 +154,15 @@
         </header>
 
         <div class="post-excerpt body">
-          <p>I just added a tiny, privacy‑friendly “pageview counter” for the blog that runs for free, doesn’t use Google Analytics, and avoids collecting personal data.
+          <p>I just added a tiny, privacy‑friendly “pageview counter” to this blog that runs for free, doesn’t use Google Analytics, and avoids collecting personal data.
 ​</p>
 <h2>What problem this solves</h2>
 <p>Most analytics tools track a lot more than many small sites need: they set cookies, profile visitors, and phone home to big platforms just to answer basic questions like “Which pages are people reading?” and “Is anyone visiting this thing?” The goal here was different: count visits and see which pages get attention, without building dossiers on readers or depending on gross ad‑tech companies.
 ​</p>
 <h2>What I built instead</h2>
-<p>A tiny web service (hosted on Deno Deploy) that receives a simple “someone viewed this page” message whenever a page on the site loads.
+<p>A tiny web service (hosted on <a href="https://deno.com/deploy">Deno Deploy</a>) that receives a simple “someone/something viewed this page” message whenever a page on the site loads.
 ​</p>
-<p>A very small snippet of JavaScript added to the blog’s template that sends just three pieces of information:</p>
+<p>The service is a very small snippet of JavaScript added to the blog’s template that sends just three pieces of information:</p>
 <ol>
 <li>
 <p>Which page was viewed (the URL path)</p>
@@ -137,7 +171,7 @@
 <p>The page title</p>
 </li>
 <li>
-<p>Where the visitor came from on your own site (the referrer)</p>
+<p>Where the visitor came from on the site (the referrer)</p>
 </li>
 </ol>
 <p>The service does not store IP addresses, cookies, or unique identifiers—only high‑level information that’s useful for understanding traffic, not tracking people.
@@ -146,14 +180,13 @@
 <p>When someone opens a page on the site, their browser quietly makes a background request to the analytics service saying “Page /blog/archive/ was viewed.” The service checks that the request comes from a web page, updates an in‑memory counter for that page, and writes a brief log line (timestamp, path, title, referrer, and browser type).
 ​</p>
 <h2>What makes it privacy‑respecting</h2>
-<p>No cookies, no fingerprinting
-The system doesn’t try to recognize or follow a person across visits; it only counts pageviews.
+<p>No cookies and no fingerprinting. The system doesn’t try to recognize or follow a person across visits; it only counts pageviews.
 ​</p>
-<p>Minimal data
-It records just enough to answer “what is being read?” rather than “who is reading it?”.
+<h3>Minimal data</h3>
+<p>It records just enough to answer “what is being read?” rather than “who is reading it?”.
 ​</p>
 <h2>Why this is a good fit for a personal blog</h2>
-<p>For a small site or personal blog, the interesting questions are usually about content, not people: which posts resonate, which pages nobody sees, and whether the site is still alive in the eyes of readers. This setup answers those questions with a tiny, understandable, and host‑agnostic piece of plumbing - no dashboards, no trackers, and no dependence on ad‑network analytics.
+<p>For a small site or personal blog with no commericial interests whatsoever, the interesting questions are about content, not people: which posts resonate, which pages nobody sees, and whether the site is still alive in the eyes of readers. This setup answers those questions with a tiny, understandable, and host‑agnostic piece of plumbing - no dashboards, no trackers, and no dependence on ad‑network analytics.
 ​</p>
         </div>
 
@@ -177,7 +210,7 @@ It records just enough to answer “what is being read?” rather than “who is
       </p>
 
   <p>
-    <time datetime="2026-01-12 18:00:00">January 12th, 2026</time>
+    <time datetime="2026-01-12 16:00:00">January 12th, 2026</time>
   </p>
 
   <p>2 min read</p>
@@ -195,40 +228,6 @@ It records just enough to answer “what is being read?” rather than “who is
 
         <p>
           <a href="/blog/sente/" class="post-link">
-            Continue reading →
-          </a>
-        </p>
-      </article>
-      <article class="post">
-        <header class="post-header">
-          <h2 class="post-title">
-            <a href="/blog/public-sans/">
-              Public Sans
-            </a>
-          </h2>
-
-          <div class="post-details">
-      <p>
-        by <a data-pagefind-filter="author" href="/blog/author/tony-adams/">Tony Adams</a>
-      </p>
-
-  <p>
-    <time datetime="2025-12-29 18:00:00">December 29th, 2025</time>
-  </p>
-
-  <p>1 min read</p>
-
-</div>
-
-        </header>
-
-        <div class="post-excerpt body">
-          <p>Our tax dollars are making this awesome new typeface,  <a href="https://public-sans.digital.gov/">Public Sans</a>  available for free. Please, no one tell <a href="https://abcnews.go.com/Politics/rubio-orders-state-department-change-official-memo-font/story?id=128282010"> Secretary of State Marco Rubio</a> about this!</p>
-<p>For more background on the absurd Rubio tantrum see: <a href="https://www.nytimes.com/2025/12/09/us/politics/rubio-state-department-font.html">this NYT article</a></p>
-        </div>
-
-        <p>
-          <a href="/blog/public-sans/" class="post-link">
             Continue reading →
           </a>
         </p>
