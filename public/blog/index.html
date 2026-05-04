@@ -99,6 +99,42 @@
       <article class="post">
         <header class="post-header">
           <h2 class="post-title">
+            <a href="/blog/tollofthestatusquo/">
+              The Status Quo Has a Cost in Human Lives
+            </a>
+          </h2>
+
+          <div class="post-details">
+      <p>
+        by <a data-pagefind-filter="author" href="/blog/author/tony-adams/">Tony Adams</a>
+      </p>
+
+  <p>
+    <time datetime="2026-05-02 19:00:00">May 2nd, 2026</time>
+  </p>
+
+  <p>1 min read</p>
+
+</div>
+
+        </header>
+
+        <div class="post-excerpt body">
+          <p>The following is a Letter to the Editor of the Chicago Tribune in response to:
+<a href="https://www.chicagotribune.com/2026/05/01/editorial-a-sensible-compromise-on-archer-avenue-takes-more-than-bike-activists-into-account/">this editorial whining about bike lanes</a></p>
+<p>The Tribune's concern for driver convenience and business loading zones on Archer is understandable, if predictable. But calling Archer "a bizarre candidate" for bike infrastructure misreads the geography entirely. The neighborhoods Archer passes through — Brighton Park, Gage Park, McKinley Park, and Archer Heights — are threaded with rail lines, an interstate highway, a canal, and intermodal yards that make movement on foot or bike among these neighborhoods nearly impossible except along Archer itself. It isn't one option among several. For many residents, it's the only continuous surface route connecting their neighborhoods. The question was never whether to put bike infrastructure there — it was how.</p>
+<p>The editorial accuses cycling advocates of "moral righteousness," and the charge may be fair in some cases. What it misses is that the other side of this argument has a body count. Fifteen pedestrians and cyclists have been killed along this very corridor in recent years. Each of those deaths is a policy outcome, not an act of God. When we treat the conditions that produce that toll as the baseline against which "improvements" are measured, we've already made a moral judgment; we've just made it quietly. Disagreeing about parking spaces while that death toll stands unchallenged is not a position above the fray. It's a choice — and one worth owning honestly.</p>
+        </div>
+
+        <p>
+          <a href="/blog/tollofthestatusquo/" class="post-link">
+            Continue reading →
+          </a>
+        </p>
+      </article>
+      <article class="post">
+        <header class="post-header">
+          <h2 class="post-title">
             <a href="/blog/qs4candidates1/">
               Bike Infra Questions for State House Candidates
             </a>
@@ -167,72 +203,6 @@
 
         <p>
           <a href="/blog/robot1/" class="post-link">
-            Continue reading →
-          </a>
-        </p>
-      </article>
-      <article class="post">
-        <header class="post-header">
-          <h2 class="post-title">
-            <a href="/blog/loggy/">
-              Added some Logging
-            </a>
-          </h2>
-
-          <div class="post-details">
-      <p>
-        by <a data-pagefind-filter="author" href="/blog/author/tony-adams/">Tony Adams</a>
-      </p>
-
-  <p>
-    <time datetime="2026-01-17 18:00:00">January 17th, 2026</time>
-  </p>
-
-  <p>2 min read</p>
-
-</div>
-
-        </header>
-
-        <div class="post-excerpt body">
-          <p>I just added a tiny, privacy‑friendly “pageview counter” to this blog that runs for free, doesn’t use Google Analytics, and avoids collecting personal data.
-​</p>
-<h2>What problem this solves</h2>
-<p>Most analytics tools track a lot more than many small sites need: they set cookies, profile visitors, and phone home to big platforms just to answer basic questions like “Which pages are people reading?” and “Is anyone visiting this thing?” The goal here was different: count visits and see which pages get attention, without building dossiers on readers or depending on gross ad‑tech companies.
-​</p>
-<h2>What I built instead</h2>
-<p>A tiny web service (hosted on <a href="https://deno.com/deploy">Deno Deploy</a>) that receives a simple “someone/something viewed this page” message whenever a page on the site loads.
-​</p>
-<p>The service is a very small snippet of JavaScript added to the blog’s template that sends just three pieces of information:</p>
-<ol>
-<li>
-<p>Which page was viewed (the URL path)</p>
-</li>
-<li>
-<p>The page title</p>
-</li>
-<li>
-<p>Where the visitor came from on the site (the referrer)</p>
-</li>
-</ol>
-<p>The service does not store IP addresses, cookies, or unique identifiers—only high‑level information that’s useful for understanding traffic, not tracking people.
-​</p>
-<h2>How it works behind the scenes</h2>
-<p>When someone opens a page on the site, their browser quietly makes a background request to the analytics service saying “Page /blog/archive/ was viewed.” The service checks that the request comes from a web page, updates an in‑memory counter for that page, and writes a brief log line (timestamp, path, title, referrer, and browser type).
-​</p>
-<h2>What makes it privacy‑respecting</h2>
-<p>No cookies and no fingerprinting. The system doesn’t try to recognize or follow a person across visits; it only counts pageviews.
-​</p>
-<h3>Minimal data</h3>
-<p>It records just enough to answer “what is being read?” rather than “who is reading it?”.
-​</p>
-<h2>Why this is a good fit for a personal blog</h2>
-<p>For a small site or personal blog with no commericial interests whatsoever, the interesting questions are about content, not people: which posts resonate, which pages nobody sees, and whether the site is still alive in the eyes of readers. This setup answers those questions with a tiny, understandable, and host‑agnostic piece of plumbing - no dashboards, no trackers, and no dependence on ad‑network analytics.
-​</p>
-        </div>
-
-        <p>
-          <a href="/blog/loggy/" class="post-link">
             Continue reading →
           </a>
         </p>

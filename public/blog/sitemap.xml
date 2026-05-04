@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.atoms.net/blog/</loc>
-    <lastmod>2026-02-26T14:28:06.589Z</lastmod>
+    <lastmod>2026-05-04T00:32:30.280Z</lastmod>
   </url>
   <url>
     <loc>https://www.atoms.net/blog/archive/</loc>
-    <lastmod>2026-02-26T14:28:06.586Z</lastmod>
+    <lastmod>2026-05-04T00:32:30.278Z</lastmod>
   </url>
   <url>
     <loc>https://www.atoms.net/blog/archive/frogs/</loc>
-    <lastmod>2026-02-26T14:28:06.583Z</lastmod>
+    <lastmod>2026-05-04T00:32:30.275Z</lastmod>
   </url>
   <url>
     <loc>https://www.atoms.net/blog/archive/meta/</loc>
-    <lastmod>2026-02-26T14:28:06.583Z</lastmod>
+    <lastmod>2026-05-04T00:32:30.275Z</lastmod>
   </url>
   <url>
     <loc>https://www.atoms.net/blog/archive/puppies/</loc>
-    <lastmod>2026-02-26T14:28:06.583Z</lastmod>
+    <lastmod>2026-05-04T00:32:30.275Z</lastmod>
   </url>
   <url>
     <loc>https://www.atoms.net/blog/author/tony-adams/</loc>
-    <lastmod>2026-02-26T14:28:06.583Z</lastmod>
+    <lastmod>2026-05-04T00:32:30.275Z</lastmod>
   </url>
   <url>
     <loc>https://www.atoms.net/blog/differences/</loc>
@@ -71,5 +71,9 @@
   <url>
     <loc>https://www.atoms.net/blog/sente/</loc>
     <lastmod>2026-01-13T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.atoms.net/blog/tollofthestatusquo/</loc>
+    <lastmod>2026-05-03T00:00:00.000Z</lastmod>
   </url>
 </urlset>
