@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.atoms.net/blog/</loc>
-    <lastmod>2026-07-01T22:33:26.400Z</lastmod>
+    <lastmod>2026-07-18T18:48:43.847Z</lastmod>
   </url>
   <url>
     <loc>https://www.atoms.net/blog/archive/</loc>
-    <lastmod>2026-07-01T22:33:26.396Z</lastmod>
+    <lastmod>2026-07-18T18:48:43.845Z</lastmod>
   </url>
   <url>
     <loc>https://www.atoms.net/blog/archive/frogs/</loc>
-    <lastmod>2026-07-01T22:33:26.393Z</lastmod>
+    <lastmod>2026-07-18T18:48:43.843Z</lastmod>
   </url>
   <url>
     <loc>https://www.atoms.net/blog/archive/meta/</loc>
-    <lastmod>2026-07-01T22:33:26.393Z</lastmod>
+    <lastmod>2026-07-18T18:48:43.843Z</lastmod>
   </url>
   <url>
     <loc>https://www.atoms.net/blog/archive/puppies/</loc>
-    <lastmod>2026-07-01T22:33:26.393Z</lastmod>
+    <lastmod>2026-07-18T18:48:43.843Z</lastmod>
   </url>
   <url>
     <loc>https://www.atoms.net/blog/archive/tony-adams/2/</loc>
-    <lastmod>2026-07-01T22:33:26.393Z</lastmod>
+    <lastmod>2026-07-18T18:48:43.843Z</lastmod>
   </url>
   <url>
     <loc>https://www.atoms.net/blog/author/tony-adams/</loc>
-    <lastmod>2026-07-01T22:33:26.393Z</lastmod>
+    <lastmod>2026-07-18T18:48:43.843Z</lastmod>
   </url>
   <url>
     <loc>https://www.atoms.net/blog/differences/</loc>
@@ -35,6 +35,10 @@
   <url>
     <loc>https://www.atoms.net/blog/instructions/</loc>
     <lastmod>2025-12-04T00:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.atoms.net/blog/lettertopresidenchiang/</loc>
+    <lastmod>2026-07-18T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.atoms.net/blog/license/</loc>

@@ -5,9 +5,29 @@
     <link>https://www.atoms.net/blog/</link>
     <atom:link href="https://www.atoms.net/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Lume Simple Blog variant</description>
-    <lastBuildDate>Wed, 01 Jul 2026 22:33:25 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 18:48:43 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume 3.1.2</generator>
+    <item>
+      <title>Dear President Chiang</title>
+      <link>https://www.atoms.net/blog/lettertopresidenchiang/</link>
+      <guid isPermaLink="false">https://www.atoms.net/blog/lettertopresidenchiang/</guid>
+      <content:encoded>
+        <![CDATA[<p>Dear President Chiang,</p>
+<p>Congratulations on becoming the eighteenth president of Northwestern University. You arrive with a formidable record—a scholar’s rigor and a builder’s instinct. But more importantly for the moment we find ourselves in, you come with a reputation for a genuine commitment to free expression. That reputation is exactly why I am writing to you now, before the ordinary demands of a new presidency settle over everything else. There is unfinished business here. It predates you, but it is now yours, and how you handle it will likely say more about your tenure than any inaugural address ever could.</p>
+<p>I’m talking about the settlement your predecessor's administration struck with the federal government last November: seventy-five million dollars, paid out through 2028, to end a civil-rights investigation and unfreeze federal funding. As part of that deal, Northwestern agreed to throw out the 2024 agreement it reached with the students who occupied Deering Meadow. Whatever its imperfections, that original agreement represented something vital: the university actually talking to its own students instead of just policing them. In its place, we got new restrictions on protests and mandatory training built to the specifications of the administration that froze our funding in the first place.</p>
+<p>I understand the pragmatic defense. Interim President Bienen said it plainly: litigation would have cost time and money the university simply couldn't risk losing. I don't doubt the financial calculation was sincere. But let's be clear about what actually happened. When Northwestern tore up its own agreement with its own students under direct financial duress—from a government explicit about wanting universities to constrain pro-Palestinian speech—it taught everyone a devastating lesson. It told students, faculty, and watching universities that the price of political speech the government dislikes is calculable, and that Northwestern will pay it rather than hold the line.</p>
+<p>That isn't a technical compliance matter. It's a wound to the very purpose of a university. It has exacted a real, ongoing cost from this school's learning and spirit.</p>
+<p>President Chiang, no one expects you to relitigate a deal you didn't sign or reopen a massive funding fight in your first year. What I am asking for is much narrower: refuse to let this settlement be the final word.</p>
+<p>That could mean a genuine, faculty-led review of the disciplinary actions taken against students in the run-up to the deal, with a real path to reconsideration where the underlying conduct was peaceful protest, not harassment. It could mean building durable legal infrastructure—a standing free expression fund, or independent counsel for students facing retaliation for lawful speech—so the next president isn’t negotiating from a position of total exposure. And it could mean simply stating, in your own voice, that complying with a settlement is not the same as endorsing its logic. A university can ensure student safety without deciding that the cheapest way to handle political controversy is to selectively restrict free speech.</p>
+<p>You’ve said you see championing free expression as central to what makes a university work. I am asking you to test that conviction against the hardest case available, not the easiest one. Don't let your presidency be defined by refighting a battle already lost—define it by making sure Northwestern never again decides that the cheapest way out of a funding fight is handing over its students' right to dissent.</p>
+<p>Welcome to Evanston. I hope you'll rise to the moment.</p>
+<p>With respect and genuine hope for your presidency,</p>
+<p>A Northwestern MA</p>
+]]>
+      </content:encoded>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>We Can't Fix the Bike Network One Ward at a Time</title>
       <link>https://www.atoms.net/blog/prerogative/</link>
@@ -168,52 +188,6 @@ Marie Newman reiterates the concept that Forgiveness is for you, it is not for t
       <content:encoded><![CDATA[<p><img src="https://www.atoms.net/uploads/maga.png" alt="Image"></p>
 ]]></content:encoded>
       <pubDate>Thu, 11 Dec 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Why and How a Blog Now?</title>
-      <link>https://www.atoms.net/blog/instructions/</link>
-      <guid isPermaLink="false">https://www.atoms.net/blog/instructions/</guid>
-      <content:encoded>
-        <![CDATA[<p>Good questions!</p>
-<!--more-->
-<h2 id="why%3F" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#why%3F" class="header-anchor">Why?</a></h2>
-<p>Like everyone, I have some things to say. Unlike everyone, I'm mostly refusing to use social media, and since I'm not hugely into speaking with actual people in the so called real world, this seems like a viable option. (In other words this is a slightly less and slightly more crazy person technique for expressing the inner dialog.) ALSO there will be some pretty tedious notes to myself of a more practical nature - like WHEN did I last acquire our last ever non-stick pan? (this time I mean it!)</p>
-<div class="markdown-alert markdown-alert-tip">
-<p class="markdown-alert-title">Tip</p>
-<p>I'm using some features of the theme and blogging software here, like this tip, which isn't really a tip at all, mostly so I remember that they exist and have an example of how to use them laying around.</p>
-</div>
-<h2 id="how%3F" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#how%3F" class="header-anchor">How?</a></h2>
-<p>The blog software <a href="https://lume.land/">Lume</a> runs in
-<a href="https://deno.com/">Deno</a>, using the pretty awesome <a href="https://lume.land/theme/xeo/">Xeo theme</a></p>
-<div class="markdown-alert markdown-alert-note">
-<p class="markdown-alert-title">Note</p>
-<p>Like the tip that isn't a tip, this note is well, I guess it actually is a note. So never mind.</p>
-</div>
-<h2 id="what's-with-the-frog-and-the-pretentious-title%3F" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#what's-with-the-frog-and-the-pretentious-title%3F" class="header-anchor">What's with the frog and the pretentious title?</a></h2>
-<p>Some obsessions may be revealed, such as my obsession with <a href="https://www.britannica.com/science/How-Do-Frogs-Breathe">Frog Respiration</a>. Other obsessions, such as riding the <a href="https://www.onepeloton.com/">Peloton &quot;bike&quot;</a> will be lurking under the surface, almost in secret, until I run out of other things to prattle on about.
-Spiritus Ranae, is sort-of Latin, or perhaps actual Latin for &quot;Breath of the Frog&quot;. For about four years, my Peloton user-name was &quot;Frog Breath&quot;. There was some non-happiness about it from people I love and/or respect, so I eventually changed it to &quot;Spiritus Ranae&quot; about which I have as yet heard no compliants. (Then again, an eye roll is silent!)</p>
-<h2 id="wut%3F" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#wut%3F" class="header-anchor">Wut?</a></h2>
-<p>A few broad topics and particular ideas I might eventually get around to yammering about:</p>
-<h3 id="a-fantasy-letter-to-the-president" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#a-fantasy-letter-to-the-president" class="header-anchor">A Fantasy Letter to the President</a></h3>
-<p>I had this idea - entirely driven by magical thinking - that one could write a letter to our depraved president which could turn him around, make him see how cruel and counterproductive his whole schtick is and even get him to unbreak our hearts by fixing the enormous mess he's created.</p>
-<p>Could this actually work? Probably not. But should that keep us from writing such a letter?</p>
-<h3 id="northwestern-caved-and-pretended-not-to-cave" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#northwestern-caved-and-pretended-not-to-cave" class="header-anchor">Northwestern Caved and Pretended not to Cave</a></h3>
-<p>$75M but no admission of wrongdoing... so wrong!</p>
-<h3 id="back-when-i-had-gills" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#back-when-i-had-gills" class="header-anchor">Back When I Had Gills</a></h3>
-<p>There will be song titles for songs that may or may not ever get written.</p>
-<h3 id="always-be-crafting!" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#always-be-crafting!" class="header-anchor">Always Be Crafting!</a></h3>
-<p>love that section of the <a href="https://wewillcraft.org/#values">We Will Craft</a> values page.</p>
-<h3 id="if-ilhan-omar-is-garbage-i-am-100%25-pro-garbage" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#if-ilhan-omar-is-garbage-i-am-100%25-pro-garbage" class="header-anchor">If Ilhan Omar is Garbage I am 100% Pro-Garbage</a></h3>
-<p>asdf</p>
-<h3 id="my-crushing-disappointment-with-pantone%E2%80%99s-2026-color-of-the-year" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#my-crushing-disappointment-with-pantone%E2%80%99s-2026-color-of-the-year" class="header-anchor">My Crushing Disappointment with Pantone’s 2026 Color of the Year</a></h3>
-<p>a white? really?</p>
-<h3 id="video-game" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#video-game" class="header-anchor">Video Game</a></h3>
-<p><a href="https://www.backmarket.com/en-us/c/tech-education/currensy-sega-genesis-device-that-made-me?lid=jt9j3ftd4tql">Device That Made Me: Curren$y on Sega Genesis</a></p>
-<h3 id="how-to-live-in-a-world-of-extreme-beauty%2C-which-is-on-fire-and-brimming-with-injustice%3F" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#how-to-live-in-a-world-of-extreme-beauty%2C-which-is-on-fire-and-brimming-with-injustice%3F" class="header-anchor">How to Live in a world of extreme beauty, which is on fire and brimming with injustice?</a></h3>
-<h2 id="another-heading!" tabindex="-1"><a href="https://www.atoms.net/blog/instructions/#another-heading!" class="header-anchor">Another Heading!</a></h2>
-]]>
-      </content:encoded>
-      <pubDate>Thu, 04 Dec 2025 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
