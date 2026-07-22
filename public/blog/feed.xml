@@ -5,9 +5,38 @@
     <link>https://www.atoms.net/blog/</link>
     <atom:link href="https://www.atoms.net/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Lume Simple Blog variant</description>
-    <lastBuildDate>Sat, 18 Jul 2026 18:48:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 14:47:27 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume 3.1.2</generator>
+    <item>
+      <title>Pass the (data center) POWER Act (HB 5513 / SB 4016).</title>
+      <link>https://www.atoms.net/blog/power-act/</link>
+      <guid isPermaLink="false">https://www.atoms.net/blog/power-act/</guid>
+      <content:encoded>
+        <![CDATA[<p><strong>An Open Letter to Representative Aarón Ortíz</strong><br>
+<em>1st District, Illinois House of Representatives</em></p>
+<p>Dear Representative Ortíz,</p>
+<p>I am writing to you today as a resident and constituent in Chicago, to express my strong support for passing comprehensive data center oversight during the upcoming Fall Veto Session—specifically the framework established in the POWER Act (HB 5513 / SB 4016).
+Data centers and AI infrastructure are expanding at a rapid pace across Illinois. While technological growth brings economic opportunity, unmitigated expansion threatens our electric grid, our environment, and our pocketbooks. Without state guardrails, everyday residents and small businesses risk shouldering the massive grid expansion costs required by hyper-scale operators.
+As my representative, I urge you to support a legislative package in the Veto Session that establishes these essential principles:</p>
+<ol>
+<li><strong>Protect Ratepayers:</strong> Establish a dedicated electricity rate class so data center operators pay for their own transmission and grid upgrades rather than passing those costs onto residential power bills.</li>
+<li><strong>Require &quot;Bring Your Own Clean Energy&quot;:</strong> Mandate that data centers procure new, local zero-emission power (solar, wind, and storage) to match their demand, rather than relying on fossil fuels like natural gas microgrids or extending the life of aging power plants.</li>
+<li><strong>Protect Local Water &amp; Aquifers:</strong> Implement strict state EPA permitting and daily usage reporting to ensure water-intensive cooling systems do not deplete or strain our local municipal water tables.</li>
+<li><strong>Enforce Interruptible Power Rules:</strong> Ensure that during extreme weather or grid stress, data centers without dedicated clean power can be temporarily curtailed so residential heating and cooling remain uninterrupted.</li>
+</ol>
+<p>Until these commonsense guardrails are signed into law, I also fully support Governor Pritzker’s pause on expanding state tax credits under the Data Center Investment Program. Taxpayer subsidies should not be granted without clear accountability for local environmental and grid impacts.
+As a voter in your district, I want to see Illinois lead in clean technology—but not at the expense of our energy reliability, clean air, or monthly utility bills. I hope I can count on your vote to pass the POWER Act framework this fall.
+Thank you for your time, service, and leadership on behalf of our community.</p>
+<p>Sincerely,
+Tony Adams</p>
+<blockquote>
+<p><strong>Take Action:</strong> Live in Illinois? Find your state representative and senator using the <a href="https://ilga.gov/lookup">Illinois General Assembly District Lookup Tool</a> and urge them to support data center safeguards during the Fall Veto Session.</p>
+</blockquote>
+]]>
+      </content:encoded>
+      <pubDate>Wed, 22 Jul 2026 14:30:02 GMT</pubDate>
+    </item>
     <item>
       <title>Dear President Chiang</title>
       <link>https://www.atoms.net/blog/lettertopresidenchiang/</link>
@@ -180,14 +209,6 @@ Marie Newman reiterates the concept that Forgiveness is for you, it is not for t
 ]]>
       </content:encoded>
       <pubDate>Tue, 30 Dec 2025 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Can We Have Nice Things?</title>
-      <link>https://www.atoms.net/blog/makearchergreatagain/</link>
-      <guid isPermaLink="false">https://www.atoms.net/blog/makearchergreatagain/</guid>
-      <content:encoded><![CDATA[<p><img src="https://www.atoms.net/uploads/maga.png" alt="Image"></p>
-]]></content:encoded>
-      <pubDate>Thu, 11 Dec 2025 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
